@@ -1,6 +1,6 @@
 # x and m are two variables.
 # x is an invertible matrix which is need to be operated.
-# m is the stored numeric vector.
+# m is the stored matrix.
 makeCacheMatrix <- function(x = matrix()) {
         m<-NULL
         set <- function(y) {
